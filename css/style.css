@@ -3,14 +3,14 @@
 	padding: 0px;
 }
 
-html, body {
+body{
 	background-color: #f9f9f9;
 }
 
 .box{
 	margin: auto;
-	height: 950px;
 	width: 1060px;
+	height: 950px;
 	background: white;
 	box-shadow:
 	-5px 0 5px -5px rgba(0, 0, 0, .3),
@@ -125,6 +125,10 @@ html, body {
 	font-size: 13px;
 	color: #2c2c2c;
 	text-decoration: none;
+}
+
+.foot a:hover{
+	text-decoration: underline;
 }
 
 .cr{
